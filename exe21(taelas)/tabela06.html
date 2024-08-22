@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table {
+            width: 600px;
+            border-collapse: collapse;
+        }
+
+        thead th {
+            border: 1px solid black;
+        }
+
+        td  {
+            border: 1px solid black;
+        }
+
+        col.cnome {
+            background-color: lawngreen;
+        }
+
+        col.cgroup {
+            background-color: gray;
+        }
+
+        col.cprof {
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tabelas de Cadastro</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgroup" span="2">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro de Clientes</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>cintia silva</td>
+                <td>feminino</td>
+                <td>37</td>
+                <td>Cuidadora</td>
+            </tr>
+            <tr>
+                <td>cintia silva</td>
+                <td>feminino</td>
+                <td>37</td>
+                <td>Cuidadora</td>
+            </tr>
+            <tr>
+                <td>cintia silva</td>
+                <td>feminino</td>
+                <td>37</td>
+                <td>Cuidadora</td>
+            </tr>
+            <tr>
+                <td>cintia silva</td>
+                <td>feminino</td>
+                <td>37</td>
+                <td>Cuidadora</td>
+            </tr>
+            <tr>
+                <td>cintia silva</td>
+                <td>feminino</td>
+                <td>37</td>
+                <td>Cuidadora</td>
+            </tr>
+            <tr>
+                <td>cintia silva</td>
+                <td>feminino</td>
+                <td>37</td>
+                <td>Cuidadora</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
