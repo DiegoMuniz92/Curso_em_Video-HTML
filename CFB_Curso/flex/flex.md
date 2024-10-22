@@ -14,9 +14,14 @@ flex-wrap -> utilizando para quebra de linha dentro de um container
 
 flex-flow -> utilizando para juntar o flex-direction e flex-wrap
 
-justify-content -> vai depender de como esta definido o flex-direction
+justify-content -> vai depender de como esta definido o flex-direction (eixo horizontal)
     - flex-start (os elementos vao se alinhar na posição inicial do flex-direction)
     - flex-end (os elementos vao se alinhar na posição final do flex-direction)
     - center (alinhamento central)
     - space-between (alinhamento onde o primeiro elemento fica no flex-start e o ultimo elemento no flex-end, e o espaço que sobrar e divido entre os outros elementos)
     - space-around (neste alinhamento os elementos das extremidades não fica colados na borda porem o espaçamento centralizado ainda é 2x amior) 
+
+    align-itens -> (eixo vertical)
+        - stretch (valor padrão, onde os elementos são esticados junto com o container)
+        - center (os elementos irão ficar centralizado entre o eixo vertical e horizontal)
+        - baseline (os elementos ficam no flex start)
