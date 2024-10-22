@@ -11,3 +11,5 @@ flex-wrap -> utilizando para quebra de linha dentro de um container
     - no-wrap (padrão, quebra de linha desativada)
     - wrap (quebra de linha ativada)
     - wrap-reverse (quebra de linha ativada com os itens iniciando ao inverso)
+
+flex-flow -> utilizando para juntar o flex-direction e flex-wrap
