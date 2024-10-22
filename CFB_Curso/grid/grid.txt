@@ -1,0 +1,3 @@
+grid-template-columns -> define a quantidade de colunas
+
+grid-template-rows -> define a quantidade de linhas
