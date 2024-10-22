@@ -13,3 +13,10 @@ flex-wrap -> utilizando para quebra de linha dentro de um container
     - wrap-reverse (quebra de linha ativada com os itens iniciando ao inverso)
 
 flex-flow -> utilizando para juntar o flex-direction e flex-wrap
+
+justify-content -> vai depender de como esta definido o flex-direction
+    - flex-start (os elementos vao se alinhar na posição inicial do flex-direction)
+    - flex-end (os elementos vao se alinhar na posição final do flex-direction)
+    - center (alinhamento central)
+    - space-between (alinhamento onde o primeiro elemento fica no flex-start e o ultimo elemento no flex-end, e o espaço que sobrar e divido entre os outros elementos)
+    - space-around (neste alinhamento os elementos das extremidades não fica colados na borda porem o espaçamento centralizado ainda é 2x amior) 
