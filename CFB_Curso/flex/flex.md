@@ -25,3 +25,9 @@ justify-content -> vai depender de como esta definido o flex-direction (eixo hor
         - stretch (valor padrão, onde os elementos são esticados junto com o container)
         - center (os elementos irão ficar centralizado entre o eixo vertical e horizontal)
         - baseline (os elementos ficam no flex start)
+
+    align-content ->
+
+    flex-grow -> propriedade de itens e quanto maior o seu valor mais espaço o item terá dentro do container
+
+    
