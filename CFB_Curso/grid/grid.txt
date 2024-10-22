@@ -1,3 +1,7 @@
 grid-template-columns -> define a quantidade de colunas
 
 grid-template-rows -> define a quantidade de linhas
+
+grid-column-gap (obsoleto) -> inseri espaçamento entre as colunas
+
+grid-row-gap (obsoleto) -> inseri espaçamento entre as linhas
