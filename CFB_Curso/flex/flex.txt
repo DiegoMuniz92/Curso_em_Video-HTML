@@ -33,3 +33,7 @@ justify-content -> vai depender de como esta definido o flex-direction (eixo hor
     flex-basis -> propriedade de itens, utilizado para ajustar o tamanho do item dependendo do tamanho do valor interno
 
     order -> propriedade de item, alterar a ordem do itens dentro do conteiner
+
+    flex-shrink -> determina a capacidade que um item pode diminuir dentro de um conteiner, e quanto maior o valor maior e a capacidade de redução do elemento.
+        - 0 (valor que retira a capacidade de reduzir)
+        - 1 (valor padrão com capacidade de reduzir ativa)
