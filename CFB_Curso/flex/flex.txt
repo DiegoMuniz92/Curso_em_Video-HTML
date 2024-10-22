@@ -39,3 +39,5 @@ justify-content -> vai depender de como esta definido o flex-direction (eixo hor
         - 1 (valor padrão com capacidade de reduzir ativa)
 
 flex -> atalho para as propriedades (flex-grow, flex-shrink, flex-basis)
+
+align-self -> permite alterar o alinhamento de um item especifico
