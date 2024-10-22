@@ -37,3 +37,5 @@ justify-content -> vai depender de como esta definido o flex-direction (eixo hor
     flex-shrink -> determina a capacidade que um item pode diminuir dentro de um conteiner, e quanto maior o valor maior e a capacidade de redução do elemento.
         - 0 (valor que retira a capacidade de reduzir)
         - 1 (valor padrão com capacidade de reduzir ativa)
+
+flex -> atalho para as propriedades (flex-grow, flex-shrink, flex-basis)
