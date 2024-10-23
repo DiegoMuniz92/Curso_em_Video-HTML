@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula de grid</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 10px;
+          /*grid-column-gap: 30px;
+            grid-row-gap: 10px;*/
+        }
+
+        .item {
+            background: #447;
+            color: white;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        .it1 {
+            /*grid-column-start: 1;
+            grid-column-end: 1;*/
+            grid-column: 1 / span 3;
+        }
+
+        .it2 {
+            /*grid-row-start: 2;
+            grid-row-end: 4;*/
+            grid-row: 2 / 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item it1">CFB Cursos 1</div>
+        <div class="item it2">CFB Cursos 2</div>
+        <div class="item">CFB Cursos 3</div>
+        <div class="item">CFB Cursos 4</div>
+        <div class="item">CFB Cursos 5</div>
+        <div class="item">CFB Cursos 6</div>
+    </div>
+</body>
+</html>
