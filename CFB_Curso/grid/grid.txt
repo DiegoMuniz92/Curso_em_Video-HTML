@@ -9,3 +9,5 @@ grid-row-gap (obsoleto) -> inseri espaçamento entre as linhas
 grid-column-start / end -> propriedade usada para determinar em que coluna um item do grid inicia e onde termina, não é uma propriedade inclusiva, neste caso se for de 1 a 3 o item irá ocupar apenas a coluna 1 e 2. tbm é possível usar o (span (inclusivo)) para determinar até onde um item pode expandir
 
 grid-row-start / end -> propriedade usada para determinar quantas linhas um item do grid inicia e onde termina, não é uma propriedade inclusiva, neste caso se for de 1 a 3 o item irá ocupar apenas a coluna 1 e 2.
+
+grid-area -> é a junção de grid-row-start, grid-column-start, grid-row-end, grid-column-end
