@@ -30,3 +30,6 @@ FONTES
     - class="h1" -> propriedade de tipografia.
     - display-1 -> propriedade de tipografia com peso diferente.
     - cmall -> para seu funcionamento e necessário que o elemento esteja envelopado pela tag span.
+
+ALINHAMENTO
+
