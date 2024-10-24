@@ -33,3 +33,7 @@ FONTES
 
 ALINHAMENTO
 
+CORES
+    - text-white -> exemplo de cor predefinida
+    - bg-white -> exemplo de cor de fundo 
+    - opacidade -> unico valor disponivel (50), exemplo:  text-white-50
