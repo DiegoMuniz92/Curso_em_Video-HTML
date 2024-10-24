@@ -1,3 +1,12 @@
+                    <576    ≥576px  ≥768px  ≥992px  ≥1200px ≥1400px
+.container	        100%	540px	720px	960px	1140px	1320px
+.container-sm	    100%	540px	720px	960px	1140px	1320px
+.container-md	    100%	100%	720px	960px	1140px	1320px
+.container-lg	    100%	100%	100%	960px	1140px	1320px
+.container-xl	    100%	100%	100%	100%	1140px	1320px
+.container-xxl	    100%	100%	100%	100%	100%	1320px
+.container-fluid	100%	100%	100%	100%	100%	100%
+
 conteiner -> conteiner fixo.
 
 conteiner-fluid -> ocupa 100% width.
@@ -10,12 +19,8 @@ bg- -> adiciona uma cor de fundo.
 
 text- -> altera cor do texto.
 
+p- -> adiciona um padding em todos os lados
 
-                    <576    ≥576px  ≥768px  ≥992px  ≥1200px ≥1400px
-.container	        100%	540px	720px	960px	1140px	1320px
-.container-sm	    100%	540px	720px	960px	1140px	1320px
-.container-md	    100%	100%	720px	960px	1140px	1320px
-.container-lg	    100%	100%	100%	960px	1140px	1320px
-.container-xl	    100%	100%	100%	100%	1140px	1320px
-.container-xxl	    100%	100%	100%	100%	100%	1320px
-.container-fluid	100%	100%	100%	100%	100%	100%
+row -> para informar a linha do grid (sempre necessario para iniciar um grid)
+col -> para informar as colunas
+col-1 -> para altera o tamanho individualmente, quanto maior o valor maior o tamanho do elemento.
