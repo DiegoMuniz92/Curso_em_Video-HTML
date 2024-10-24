@@ -21,6 +21,12 @@ text- -> altera cor do texto.
 
 p- -> adiciona um padding em todos os lados
 
-row -> para informar a linha do grid (sempre necessario para iniciar um grid)
-col -> para informar as colunas
-col-1 -> para altera o tamanho individualmente, quanto maior o valor maior o tamanho do elemento.
+GRID
+    - row -> para informar a linha do grid (sempre necessario para iniciar um grid)
+    - col -> para informar as colunas
+    - col-1 -> para altera o tamanho individualmente, quanto maior o valor maior o tamanho do elemento.
+
+FONTES
+    - class="h1" -> propriedade de tipografia.
+    - display-1 -> propriedade de tipografia com peso diferente.
+    - cmall -> para seu funcionamento e necessário que o elemento esteja envelopado pela tag span.
