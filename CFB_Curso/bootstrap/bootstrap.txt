@@ -37,3 +37,11 @@ CORES
     - text-white -> exemplo de cor predefinida
     - bg-white -> exemplo de cor de fundo 
     - opacidade -> unico valor disponivel (50), exemplo:  text-white-50
+
+TABELAS
+    - table -> para criar a estrutura de tabela, tbm pode ser usado nas linhas e colunas da tabela.
+    - table-dark -> para inserir cor de fundo
+    - table-striped -> para criar um efeito de claro e escuro entre as linhas.
+    - table-hover -> para criar o efeito ao passar o mouse.
+    - table-bordered -> para criar as bordas
+    - table-borderless -> para criar uma tabela sem bordas
