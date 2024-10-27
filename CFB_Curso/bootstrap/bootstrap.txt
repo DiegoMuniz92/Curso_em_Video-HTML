@@ -32,6 +32,8 @@ FONTES
     - cmall -> para seu funcionamento e necessário que o elemento esteja envelopado pela tag span.
 
 ALINHAMENTO
+    - d- -> altera o tipo de display
+    - mx/my -> alinha o elemento na horizontal/vertical
 
 CORES
     - text-white -> exemplo de cor predefinida
@@ -45,3 +47,10 @@ TABELAS
     - table-hover -> para criar o efeito ao passar o mouse.
     - table-bordered -> para criar as bordas
     - table-borderless -> para criar uma tabela sem bordas
+
+IMAGENS
+    - para usar imagens basta inserir o w- com alguns valores padrões (25/50/75/100), em imagens png é possível alterar a cor de fundo.
+    - rounded -> propriedade utilizada para as bordas de uma imagem.
+    - img-thumbnail -> criar uma borda ao redor da imagem 
+    - img-fluid -> transforma a imagem em responsiva ("max-width: 100%, height: auto")
+   
