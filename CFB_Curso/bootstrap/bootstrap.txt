@@ -54,3 +54,5 @@ IMAGENS
     - img-thumbnail -> criar uma borda ao redor da imagem 
     - img-fluid -> transforma a imagem em responsiva ("max-width: 100%, height: auto")
    
+   JUMBOTRON
+   - invisible -> deixa o elemento oculto
